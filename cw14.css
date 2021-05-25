@@ -1,0 +1,33 @@
+.line > .btns{
+    width: 150px;
+}
+.line input{
+    width:150px;
+}
+.bookForm{
+    width:305px;
+    position:absolute;
+
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+.bookForm input[type=text]{
+    width:100%;
+}
+
+.bookForm select{
+    width:255px;
+    float:left;
+}
+
+.formBtn{
+    margin-top:25px;
+}
+
+.addCategory{
+    width:38px!important;
+    height:38px!important;
+    margin-left:12px;
+    float:left;
+}
