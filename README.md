@@ -16,7 +16,7 @@ This repository contains another example for connection with database in PHP pro
 # Manual for XAMPP
 
 - Download XAMPP from [here](https://www.apachefriends.org/pl/download.html),
-- Download `php_biblioteka_mysql`,
+- Download `PHP-mysql-Site`,
 - Go to your `xampp` folder,
 - In folder `xampp` find `htdocs`,
 - In `htdocs` create folder, for example with name `mysqlPHP`,
