@@ -23,3 +23,4 @@ This repository contains another example for connection with database in PHP pro
 - Put everything from `PHP-mysql-Site/PHP-mysql-Site-main` inside `mysqlPHP`,
 - If you have turned on `Apache` and `MySQL` in XAMPP Control Panel,
   - Open new card with link: `localhost/mysqlPHP` (mysqlPHP is your folder name).
+- Open cw14.php _(For now)_
