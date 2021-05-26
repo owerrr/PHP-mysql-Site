@@ -108,6 +108,7 @@ function getBooksById(int $id):array{
     $sql = "SELECT * FROM books WHERE ID = ".$id;
     $res = $conn->query($sql);
     $book = $res->fetch_array();
+    if($book == null) return [];
     return $book;
 }
 

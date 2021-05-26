@@ -33,6 +33,9 @@
                     case 5:
                         $reason = error5;
                     break;
+                    case 6:
+                        $reason = error6;
+                    break;
                     default:
                         $reason = unexpectedError;
                     break;

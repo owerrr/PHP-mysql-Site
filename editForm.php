@@ -14,6 +14,7 @@
 
     <?php
         require "functions.php";
+        if(!getBooksById($_GET['id'])) return header("Location: errorPage.php?error=6");
         $b = getBooksById($_GET['id']);
 
         $html = <<<TEXT
