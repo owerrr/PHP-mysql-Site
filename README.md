@@ -11,7 +11,11 @@ This repository contains another example for connection with database in PHP pro
 - Reading all books from database with their categories,
 - All books can be edited in any time,
 - Delete choosen book and category with confirming,
-- Validation for creating books with empty labels, empty categories or deleting categories used in books
+- Validation for 
+  - creating books with empty labels,
+  - empty categories, 
+  - deleting categories used in books,
+  - changing ID in URL which doesn't exists
 
 # Manual for XAMPP
 
