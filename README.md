@@ -16,6 +16,7 @@ This repository contains another example for connection with database in PHP pro
   - empty categories, 
   - deleting categories used in books,
   - changing ID in URL which doesn't exists
+  - negative price
 
 # Manual for XAMPP
 
