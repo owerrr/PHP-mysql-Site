@@ -7,6 +7,7 @@ if(filter_has_var(INPUT_POST,'title') && filter_has_var(INPUT_POST,'author') && 
     else if(ctype_space($_POST['price']) || empty($_POST['price'])) return header("Location: errorPage.php?error=3");
     if(!is_numeric(str_replace(",",".",$_POST['price']))) return header("Location: errorPage.php?error=3");
     $price = str_replace(",",".",$_POST['price']);
+    if($price < 0) return header("Location: errorPage.php?error=3");
     newRow($_POST['title'], $_POST['author'], $price, $_POST['category']);
 }
 
